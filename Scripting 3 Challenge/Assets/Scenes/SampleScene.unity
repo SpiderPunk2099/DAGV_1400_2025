@@ -132,6 +132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 91439897}
   - component: {fileID: 91439898}
+  - component: {fileID: 91439900}
   m_Layer: 0
   m_Name: Pink (3)
   m_TagString: Untagged
@@ -206,6 +207,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &91439900
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91439896}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.64, y: 0.54126686, z: 0.2}
+  m_Center: {x: -0.00000010341311, y: -0.049366143, z: 0}
 --- !u!1 &161345790
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,6 +238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 161345791}
   - component: {fileID: 161345792}
+  - component: {fileID: 161345794}
   m_Layer: 0
   m_Name: Pink (2)
   m_TagString: Untagged
@@ -290,6 +313,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &161345794
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161345790}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.64, y: 0.5435536, z: 0.2}
+  m_Center: {x: -0.00000024129724, y: -0.04822275, z: 0}
 --- !u!1 &357531483
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,6 +344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 357531484}
   - component: {fileID: 357531485}
+  - component: {fileID: 357531487}
   m_Layer: 0
   m_Name: Pink (10)
   m_TagString: Untagged
@@ -374,6 +419,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &357531487
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357531483}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.64, y: 0.5388907, z: 0.2}
+  m_Center: {x: -0.00000010341311, y: -0.050554194, z: 0}
 --- !u!1 &385772229
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,6 +450,7 @@ GameObject:
   m_Component:
   - component: {fileID: 385772230}
   - component: {fileID: 385772231}
+  - component: {fileID: 385772233}
   m_Layer: 0
   m_Name: Pink (7)
   m_TagString: Untagged
@@ -458,6 +525,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &385772233
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385772229}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.64, y: 0.54061824, z: 0.2}
+  m_Center: {x: 0, y: -0.04969045, z: 0}
 --- !u!1 &542656623
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,6 +556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 542656624}
   - component: {fileID: 542656625}
+  - component: {fileID: 542656627}
   m_Layer: 0
   m_Name: Pink (12)
   m_TagString: Untagged
@@ -542,6 +631,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &542656627
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542656623}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.64, y: 0.6268475, z: 0.2}
+  m_Center: {x: 0, y: 0.0065754754, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,6 +756,7 @@ GameObject:
   m_Component:
   - component: {fileID: 839089640}
   - component: {fileID: 839089641}
+  - component: {fileID: 839089643}
   m_Layer: 0
   m_Name: Pink (8)
   m_TagString: Untagged
@@ -720,6 +831,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &839089643
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839089639}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.64, y: 0.5434868, z: 0.2}
+  m_Center: {x: 0.00000006894207, y: -0.048256394, z: 0}
 --- !u!1 &925140820
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,6 +862,7 @@ GameObject:
   m_Component:
   - component: {fileID: 925140821}
   - component: {fileID: 925140822}
+  - component: {fileID: 925140824}
   m_Layer: 0
   m_Name: Pink (9)
   m_TagString: Untagged
@@ -804,6 +937,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &925140824
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925140820}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.64, y: 0.5388907, z: 0.2}
+  m_Center: {x: 0, y: -0.05055422, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,6 +1060,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1046099351}
   - component: {fileID: 1046099352}
+  - component: {fileID: 1046099354}
   m_Layer: 0
   m_Name: Pink (11)
   m_TagString: Untagged
@@ -980,6 +1135,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1046099354
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046099350}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.64, y: 0.5342948, z: 0.2}
+  m_Center: {x: -0.00000010341311, y: -0.052852098, z: 0}
 --- !u!1 &1059894527
 GameObject:
   m_ObjectHideFlags: 0
@@ -990,6 +1166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1059894528}
   - component: {fileID: 1059894529}
+  - component: {fileID: 1059894531}
   m_Layer: 0
   m_Name: Pink (1)
   m_TagString: Untagged
@@ -1064,6 +1241,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1059894531
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059894527}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.64, y: 0.7365126, z: 0.2}
+  m_Center: {x: 0.00000010341311, y: -0.048256744, z: 0}
 --- !u!1 &1480458048
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,6 +1272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1480458049}
   - component: {fileID: 1480458050}
+  - component: {fileID: 1480458052}
   m_Layer: 0
   m_Name: Pink (5)
   m_TagString: Untagged
@@ -1148,6 +1347,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1480458052
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480458048}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.64, y: 0.54513526, z: 0.2}
+  m_Center: {x: 0, y: -0.047431633, z: 0}
 --- !u!1 &1516325277
 GameObject:
   m_ObjectHideFlags: 0
@@ -1158,8 +1378,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1516325279}
   - component: {fileID: 1516325278}
+  - component: {fileID: 1516325280}
+  - component: {fileID: 1516325281}
+  - component: {fileID: 1516325282}
+  - component: {fileID: 1516325283}
   m_Layer: 0
-  m_Name: Idle (32x32)_0
+  m_Name: Tiki Man
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1226,12 +1450,101 @@ Transform:
   m_GameObject: {fileID: 1516325277}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.63, y: 0.37, z: 0}
+  m_LocalPosition: {x: -6.631, y: 0.452, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1516325280
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516325277}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!136 &1516325281
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516325277}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.01
+  m_Height: 0.32425854
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.0021288595, z: 0}
+--- !u!143 &1516325282
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516325277}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 0.32
+  m_Radius: 0.16
+  m_SlopeLimit: 0
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1516325283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516325277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffcd36542b236498481f3cd29a15a77e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 6
 --- !u!1 &1557685376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,6 +1555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1557685377}
   - component: {fileID: 1557685378}
+  - component: {fileID: 1557685380}
   m_Layer: 0
   m_Name: Pink (4)
   m_TagString: Untagged
@@ -1316,6 +1630,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1557685380
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557685376}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.64, y: 0.540618, z: 0.2}
+  m_Center: {x: 0, y: -0.049690336, z: 0}
 --- !u!1 &1619096274
 GameObject:
   m_ObjectHideFlags: 0
@@ -1326,6 +1661,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1619096275}
   - component: {fileID: 1619096276}
+  - component: {fileID: 1619096278}
   m_Layer: 0
   m_Name: Pink (6)
   m_TagString: Untagged
@@ -1400,6 +1736,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1619096278
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619096274}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.64, y: 0.5406184, z: 0.2}
+  m_Center: {x: 0, y: -0.049690526, z: 0}
 --- !u!1 &1930937615
 GameObject:
   m_ObjectHideFlags: 0
