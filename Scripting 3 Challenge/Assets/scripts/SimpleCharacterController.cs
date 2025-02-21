@@ -8,7 +8,7 @@ public class SimpleCharacterController : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float jumpForce = 8f;
-    public float gravity = 0f;
+    public float gravity = -9.81f;
 
     private CharacterController controller;
     private Vector3 velocity;
@@ -23,8 +23,9 @@ public class SimpleCharacterController : MonoBehaviour
 
     private void Update()
     {
-        MoveCharacter();
+       
         ApplyGravity();
+        MoveCharacter();
         KeepCharacterOnXAxis();
     }
 
@@ -36,11 +37,11 @@ public class SimpleCharacterController : MonoBehaviour
 
         //something here isnt working, in if statement
         if (Input.GetButtonDown("Jump") && controller.isGrounded)
-        {
 
-            System.Console.WriteLine("is jumping");
-            velocity.y += gravity * Time.deltaTime;
+        {
+            velocity.y = Mathf.Sqrt(jumpForce * -2f * gravity);
         }
+
     }
 
     private void ApplyGravity()

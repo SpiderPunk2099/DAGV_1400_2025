@@ -355,6 +355,7 @@
 "Assets/scripts/Control Character Moves.cs"
 "Assets/scripts/Flip Script.cs"
 "Assets/scripts/SimpleCharacterController.cs"
+"Assets/scripts/SimpleTriggerEventBehavior.cs"
 -langversion:9.0
 /deterministic
 /optimize+
