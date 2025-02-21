@@ -354,6 +354,7 @@
 "Assets/scripts/CharacterAnimationController.cs"
 "Assets/scripts/Control Character Moves.cs"
 "Assets/scripts/Flip Script.cs"
+"Assets/scripts/SimpleCharacterController.cs"
 -langversion:9.0
 /deterministic
 /optimize+

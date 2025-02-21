@@ -24,23 +24,23 @@ public class CharacterAnimationController : MonoBehaviour
         if (Input.GetAxis("Horizontal") != 0)
 
         {
-            animator.SetTrigger("Run");
+            animator.SetTrigger("RunTrigger");
         }
         else
         {
-            animator.SetTrigger("Idle");
+            animator.SetTrigger("IdleTrigger");
         }
 
         //handle jumping
         if (Input.GetButtonDown("Jump"))
         {
-            animator.SetTrigger("Jump");
+            animator.SetTrigger("JumpTrigger");
         }
 
         //handle wall jumping
         if (Input.GetKeyDown(KeyCode.W))
         {
-            animator.SetTrigger("WallJump");
+            animator.SetTrigger("WallJumpTrigger");
         }
 
     }
