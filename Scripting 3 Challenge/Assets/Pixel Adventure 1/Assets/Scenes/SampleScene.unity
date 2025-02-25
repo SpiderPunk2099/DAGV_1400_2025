@@ -554,6 +554,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1195775055042343094, guid: f0674e723a8b74539bf7e0ed242752fb, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4327127434939271363, guid: f0674e723a8b74539bf7e0ed242752fb, type: 3}
       propertyPath: m_Name
       value: Fin
@@ -576,7 +580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6724803280988146626, guid: f0674e723a8b74539bf7e0ed242752fb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.68
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 6724803280988146626, guid: f0674e723a8b74539bf7e0ed242752fb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1086,7 +1090,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 36
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1362,6 +1366,30 @@ PrefabInstance:
     - target: {fileID: 1335304811927968544, guid: a0669f76d6bd14e7c9fae16b797ff670, type: 3}
       propertyPath: m_Name
       value: Spikes
+      objectReference: {fileID: 0}
+    - target: {fileID: 5224721250909215681, guid: a0669f76d6bd14e7c9fae16b797ff670, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5224721250909215681, guid: a0669f76d6bd14e7c9fae16b797ff670, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1569044103}
+    - target: {fileID: 5224721250909215681, guid: a0669f76d6bd14e7c9fae16b797ff670, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 5224721250909215681, guid: a0669f76d6bd14e7c9fae16b797ff670, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.Animator, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5224721250909215681, guid: a0669f76d6bd14e7c9fae16b797ff670, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: HitTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 5224721250909215681, guid: a0669f76d6bd14e7c9fae16b797ff670, type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 9137610078642433835, guid: a0669f76d6bd14e7c9fae16b797ff670, type: 3}
       propertyPath: m_LocalScale.x
@@ -1733,6 +1761,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.64, y: 0.6389395, z: 0.2}
   m_Center: {x: 0, y: -0.00052927586, z: 0}
+--- !u!95 &1569044103 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3245918164706408418, guid: f0674e723a8b74539bf7e0ed242752fb, type: 3}
+  m_PrefabInstance: {fileID: 432998407}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1619096274
 GameObject:
   m_ObjectHideFlags: 0

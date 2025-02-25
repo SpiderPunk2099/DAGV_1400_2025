@@ -42,6 +42,13 @@ public class CharacterAnimationController : MonoBehaviour
         {
             animator.SetTrigger("WallJumpTrigger");
         }
-
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            animator.SetTrigger("HitTrigger");
+        }
+        else
+        {
+            animator.SetTrigger("IdleTrigger");
+        }
     }
 }

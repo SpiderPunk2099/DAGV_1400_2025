@@ -15,11 +15,11 @@ public class SimpleTriggerEventBehavior : MonoBehaviour
     {
         animator = GameObject.Find("Fin").GetComponent<Animator>();
     }
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
 
     {
         triggerEvent.Invoke();
-        animator.SetTrigger("HitTrigger");
+        //animator.SetTrigger("HitTrigger");
         //Debug.Log("Player interacter with the object!");
         
     }
