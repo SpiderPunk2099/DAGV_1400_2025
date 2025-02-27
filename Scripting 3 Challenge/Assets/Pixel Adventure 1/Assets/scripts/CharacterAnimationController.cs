@@ -45,6 +45,7 @@ public class CharacterAnimationController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.H))
         {
             animator.SetTrigger("HitTrigger");
+            Debug.Log("is hit");
         }
         else
         {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Single Variables/SimpleFloatData")]
-public class SimpleFloatData : MonoBehaviour
+public class SimpleFloatData : ScriptableObject
 {
     public float value;
 
