@@ -354,11 +354,12 @@
 "Assets/Pixel Adventure 1/Assets/scripts/CharacterAnimationController.cs"
 "Assets/Pixel Adventure 1/Assets/scripts/Control Character Moves.cs"
 "Assets/Pixel Adventure 1/Assets/scripts/Flip Script.cs"
-"Assets/Pixel Adventure 1/Assets/scripts/NewBehaviourScript.cs"
 "Assets/Pixel Adventure 1/Assets/scripts/Simple Float Data.cs"
 "Assets/Pixel Adventure 1/Assets/scripts/Simple Image Behaviour.cs"
 "Assets/Pixel Adventure 1/Assets/scripts/Simple Trigger Event Behaviour.cs"
 "Assets/Pixel Adventure 1/Assets/scripts/SimpleCharacterController.cs"
+"Assets/Pixel Adventure 1/Assets/scripts/SimpleIntData.cs"
+"Assets/Pixel Adventure 1/Assets/scripts/SimpleTextMeshProBehaviour.cs"
 "Assets/Pixel Adventure 1/Assets/scripts/SimpleTriggerEventBehavior.cs"
 -langversion:9.0
 /deterministic
