@@ -355,6 +355,7 @@
 "Assets/Pixel Adventure 1/Assets/scripts/Control Character Moves.cs"
 "Assets/Pixel Adventure 1/Assets/scripts/Damage Sound.cs"
 "Assets/Pixel Adventure 1/Assets/scripts/Flip Script.cs"
+"Assets/Pixel Adventure 1/Assets/scripts/Music Control.cs"
 "Assets/Pixel Adventure 1/Assets/scripts/Simple Float Data.cs"
 "Assets/Pixel Adventure 1/Assets/scripts/Simple Image Behaviour.cs"
 "Assets/Pixel Adventure 1/Assets/scripts/Simple Trigger Event Behaviour.cs"
@@ -362,6 +363,7 @@
 "Assets/Pixel Adventure 1/Assets/scripts/SimpleIntData.cs"
 "Assets/Pixel Adventure 1/Assets/scripts/SimpleTextMeshProBehaviour.cs"
 "Assets/Pixel Adventure 1/Assets/scripts/SimpleTriggerEventBehavior.cs"
+"Assets/Pixel Adventure 1/Assets/scripts/Volume Control.cs"
 -langversion:9.0
 /deterministic
 /optimize+
