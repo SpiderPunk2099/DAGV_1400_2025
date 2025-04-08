@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class SimpleCharacterController : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float moveSpeed = 5.0f;
     public float jumpForce = 8f;
     public float gravity = -9.81f;
 
@@ -23,15 +23,13 @@ public class SimpleCharacterController : MonoBehaviour
 
     private void Update()
     {
-        //Debug.Log(velocity.y);
-        ApplyGravity();
         MoveCharacter();
+        ApplyGravity();
         KeepCharacterOnXAxis();
     
         if (Input.GetButtonDown("Jump") && controller.isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpForce * -2f * gravity);
-            Debug.Log("Is Jump");
         }
    
     }
@@ -41,21 +39,11 @@ public class SimpleCharacterController : MonoBehaviour
         var moveInput = Input.GetAxis("Horizontal");
         var move = new Vector3(moveInput, 0f, 0f) * (moveSpeed * Time.deltaTime);
         controller.Move(move);
-
-        //something here isnt working, in if statement
-        /* if (Input.GetButtonDown("Jump") && controller.isGrounded)
-
-           //{ velocity.y = Mathf.Sqrt(jumpForce * -2f * gravity); }
-
-         {
-             velocity.y = Mathf.Sqrt(jumpForce * -2f * gravity);
-             Debug.Log("is jump");
-         }*/
+        
 
      }
         //problem here
         private void ApplyGravity()
-
         {
             if (!controller.isGrounded)
 
@@ -66,7 +54,7 @@ public class SimpleCharacterController : MonoBehaviour
 
             else
             {
-                velocity.y = 0f;
+                velocity.y = 0.0f;
 
             }
 

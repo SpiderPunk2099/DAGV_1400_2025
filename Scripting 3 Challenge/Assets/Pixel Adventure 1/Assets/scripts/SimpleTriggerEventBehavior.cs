@@ -18,9 +18,9 @@ public class SimpleTriggerEventBehavior : MonoBehaviour
     private void OnTriggerEnter(Collider other)
 
     {
-        triggerEvent.Invoke();
-        //animator.SetTrigger("HitTrigger");
-        //Debug.Log("Player interacter with the object!");
-        
+        if (other.CompareTag("Player"))
+        {
+            triggerEvent.Invoke();
+        }
     }
 }

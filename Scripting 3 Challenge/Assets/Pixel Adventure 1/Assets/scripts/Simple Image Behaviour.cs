@@ -16,7 +16,6 @@ public class SimpleImageBehaviour : MonoBehaviour
 
     public void UpdateWithFloatData()
     {
-       Debug.Log("is health bar");
         imageObj.fillAmount = dataObj.value;
     }
 }
