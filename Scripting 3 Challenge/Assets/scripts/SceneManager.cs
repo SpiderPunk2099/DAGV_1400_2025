@@ -6,7 +6,11 @@ public class SceneLoader : MonoBehaviour
 {
     public void LoadStart()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(1);
+    }
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 
     // Update is called once per frame

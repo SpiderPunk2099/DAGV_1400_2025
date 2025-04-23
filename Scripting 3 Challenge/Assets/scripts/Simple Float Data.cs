@@ -6,7 +6,7 @@ using UnityEngine;
 public class SimpleFloatData : ScriptableObject
 {
     public float value;
-
+   
     public void UpdateValue(float amount)
     {
         value += amount;

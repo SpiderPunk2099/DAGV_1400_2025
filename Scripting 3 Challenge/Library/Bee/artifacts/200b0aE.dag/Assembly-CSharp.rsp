@@ -361,6 +361,7 @@
 "Assets/scripts/Control Character Moves.cs"
 "Assets/scripts/Damage Sound.cs"
 "Assets/scripts/Flip Script.cs"
+"Assets/scripts/Game Manager.cs"
 "Assets/scripts/id script.cs"
 "Assets/scripts/Music Control.cs"
 "Assets/scripts/SceneManager.cs"
